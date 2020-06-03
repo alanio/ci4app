@@ -1,0 +1,34 @@
+CRITICAL - 2020-05-31 22:00:40 --> Undefined variable: mensagem
+#0 /var/www/html/ci4app/app/Controllers/Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4app/system/CodeIgniter.php(917): App\Controllers\Home->index()
+#2 /var/www/html/ci4app/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/ci4app/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci4app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 22:17:24 --> syntax error, unexpected '/', expecting '{'
+#0 /var/www/html/ci4app/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/ci4app/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/ci4app/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/ci4app/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci4app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 22:17:55 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /var/www/html/ci4app/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/ci4app/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/ci4app/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/ci4app/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci4app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 22:46:34 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /var/www/html/ci4app/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/ci4app/system/CodeIgniter.php(792): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/ci4app/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/ci4app/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/ci4app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-31 23:07:45 --> Cannot access protected property CodeIgniter\Router\RouteCollection::$routes
+#0 /var/www/html/ci4app/system/CodeIgniter.php(779): require()
+#1 /var/www/html/ci4app/system/CodeIgniter.php(363): CodeIgniter\CodeIgniter->tryToRouteIt()
+#2 /var/www/html/ci4app/system/CodeIgniter.php(311): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci4app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
