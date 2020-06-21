@@ -2,10 +2,13 @@
 
 class Produtos extends BaseController {
     public function index(){
-        echo "<h1>Página principal de produtos</h1>";
+    	$data['titulo']  ="Gerenciar Produtos";
+        return view('produtos_index', $data);
     }
 
     public function detalhes($produto_id){
-        echo "<h1>Exibindo detalhes do produto $produto_id</h1>";
+        $data['produto_id'] = $produto_id;
+        $data['titulo'] = 'Produto ' . $produto_id;
+        return view('produtos_detalhes', $data);
     }
 }
